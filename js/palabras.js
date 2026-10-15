@@ -1,4 +1,10 @@
 const PALABRAS = [
+    // Palabras de la IA:
+    { palabra: "abstract", categoria: "clases", descripcion: "Define clases y métodos abstractos." },
+    { palabra: "static", categoria: "otros", descripcion: "Define variables o métodos estáticos." },
+    { palabra: "const", categoria: "otros", descripcion: "Define una constante." },
+
+    // Hasta aqui la IA
     { palabra: "abstract", categoria: "clases", descripcion: "Define clases y métodos abstractos." },
     { palabra: "and", categoria: "control", descripcion: "Operador lógico AND de menor precedencia." },
     { palabra: "array", categoria: "funciones", descripcion: "Crea un array." },
