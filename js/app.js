@@ -21,7 +21,7 @@ function aplicarFiltros() {
     listaElemento.innerHTML = "";
     
     if (palabrasFiltradas.length === 0) {
-        listaElemento.innerHTML = "<li><p class='palabra-descripcion'>No se encontraron resultados para tu búsqueda.</p></li>";
+        listaElemento.innerHTML = "<li class='sin-resultados'><p class='palabra-descripcion'>🔍 No se encontraron palabras reservadas para los criterios seleccionados.</p></li>";
         return;
     }
 
@@ -29,7 +29,7 @@ function aplicarFiltros() {
         const li = document.createElement("li");
         li.innerHTML = `
             <div class="palabra-titulo">${item.palabra}</div>
-            <span class="palabra-categoria">${item.categoria}</span>
+            <span class="palabra-categoria" data-cat="${item.categoria}">${item.categoria}</span>
             <p class="palabra-descripcion">${item.descripcion}</p>
         `;
         listaElemento.appendChild(li);

@@ -9,16 +9,7 @@ function inicializarCategorias() {
     // Crear el elemento desplegable
     const selectCategorias = document.createElement("select");
     selectCategorias.id = "categorias";
-
-    // Estilos básicos para integrarse con el diseño oscuro de la página
-    selectCategorias.style.padding = "0.6rem 0.8rem";
-    selectCategorias.style.backgroundColor = "var(--color-fondo, #121212)";
-    selectCategorias.style.border = "1px solid var(--color-borde, #333333)";
-    selectCategorias.style.borderRadius = "6px";
-    selectCategorias.style.color = "var(--color-texto, #e0e0e0)";
-    selectCategorias.style.fontSize = "1rem";
-    selectCategorias.style.cursor = "pointer";
-    selectCategorias.style.outline = "none";
+    selectCategorias.setAttribute("aria-label", "Filtrar por categoría");
 
     // Opción inicial "todas"
     const opcionTodas = document.createElement("option");
