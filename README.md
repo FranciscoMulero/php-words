@@ -7,3 +7,6 @@ Simplemente haz doble clic en el archivo `index.html` para abrirlo directamente 
 Ya tenía la instrucción
 
 Requiere un navegador moderno.
+
+### Auditoría
+Esto está configurado desde la web.
