@@ -10,3 +10,6 @@ Requiere un navegador moderno.
 
 ### Auditoría
 Esto está configurado desde la web.
+
+#### Segunda edición
+Esta es la segunda edición del readme
